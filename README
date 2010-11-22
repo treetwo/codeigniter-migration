@@ -1,0 +1,7 @@
+To use this migration controller, place the db_migrate.php inside your application's controller folder, and access http://example.com/db_migrate
+
+The library will try to create the meta record table.
+
+To modifiy the DB schema, create a folder named migrations inside model folder, and add any model file that include forge methods. Access http://example.com/db_migrate to let the magic happen.
+
+More on http://treetwo.com/2010/09/06/db-migrate-in-codeigniter/
